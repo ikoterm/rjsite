@@ -174,6 +174,8 @@
       <div class="contact_action">
         <div class="email_center">
           <form class="email_form" id="email_form">
+            
+            <input type="hidden" name="accessKey" value="48e34d29-ee24-45bb-ada4-dab1aac94da2">
             <div class="form_divider">
               <p class="contact_p">
                 
@@ -193,7 +195,7 @@
               <label for="keimeno"></label>
               <textarea class="keimeno_email"
                         id="keimeno"
-                        name="message"
+                        name="$message"
                         rows="10"
                         cols="48"
                         wrap="hard" placeholder="Κείμενο..."
@@ -206,7 +208,7 @@
               <p class="contact_p">
                 <label for="onoma"></label>
                 <input type="text"
-                       name="onoma"
+                       name="$onoma"
                        placeholder="Όνομα"
                        class="type_input"
                        minlength="2"
@@ -217,7 +219,7 @@
               <p class="contact_p">
                 <label for="epwnymo"></label>
                 <input type="text"
-                       name="epwnymo"
+                       name="$epwnymo"
                        placeholder="Επώνυμο"
                        class="type_input"
                        minlength="2"
@@ -230,7 +232,7 @@
               <p class="contact_p">
                 <label for="email"></label>
                 <input type="email"
-                       name="email"
+                       name="$email"
                        placeholder="email"
                        class="type_input"
                        minlength="2"
@@ -240,7 +242,7 @@
             
             <button id="btn_email"
                     type="submit"
-                    value="DONE" name="DONE">Eπιβεβαίωση</button>
+                    value="DONE" name="$DONE">Eπιβεβαίωση</button>
           </form>
         </div>
 
@@ -405,7 +407,7 @@
           searchParams.append(pair[0], pair[1]);
         }
         
-        fetch("https://f79pj8.dev.with-datafire.io/contact", {
+        fetch("https://api.staticforms.xyz/submit", {
           method: "post",
           body: searchParams
         })
@@ -419,7 +421,7 @@
           alert( error );
         })
           .then(function changeText() {
-          document.getElementById('btn_email').innerHTML = "Το μήνυμά σας στάλθηκε με επιτυχία!";
+          document.getElementById('btn_email').innerHTML = "success!";
         })
           .then(function chngbtnborderclr() {
             document.getElementById('btn_email')
