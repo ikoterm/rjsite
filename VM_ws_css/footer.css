@@ -1,0 +1,90 @@
+
+
+
+footer {
+
+  background-color: #071d39;
+  padding: 33px 3vw 33px;
+  font-size: 17px;
+  
+  height: 72vh;
+  
+  margin: auto;
+}
+
+
+
+.stoixeia_epikoinwnias {
+  
+  font-weight: bold;
+
+  color: #fcfcfc;
+  
+  padding: 0px;
+  
+  max-width: 330px;
+}
+
+
+
+#footer_contact {
+
+  text-align: left;
+  padding: inherit;
+  min-width: 230px;
+  
+  box-shadow: none;
+}
+
+
+
+.epik { 
+  
+  color: #416fff;
+  
+  background-color: transparent;
+
+  text-decoration-color: #94312B;
+  
+  transition-delay: 0.025s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.epik:hover {
+
+  color: #fcfcfc;
+  background-color: transparent;
+  text-decoration-color: #4166f5;
+  text-decoration-style: solid;
+  
+  transition-delay: 0.025s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+
+.copyright_section {
+  
+  font-size: 0.8rem;
+  
+  color: #fcfcfc;
+  
+  margin: 32vh auto 0px;
+  
+  padding: 0px;
+}
+
+
+
+#copyright_paragraph {
+  
+  text-align: center;
+  
+  box-shadow: none;
+  
+  margin: 0px;
+  
+  padding: 0px;
+}
+

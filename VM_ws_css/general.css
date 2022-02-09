@@ -1,0 +1,132 @@
+
+
+
+* {
+  
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; 
+  outline: 1px none red;
+}
+
+
+
+:root {
+  
+  --starting_input_bg_color: #66032c;
+  
+  --hover_input_bg_color: pink;
+  
+  --focus_input_color: #0c0c0c;
+  
+  --valid_check_color: #3cb466;
+  
+  --invalid_check_color: red;
+  
+  --input_done_txt_color: #0c0c0a;
+  
+  --placeholder_text: #777;
+  
+  --hover_placeholder_text: #0c0c0a;
+  
+  --bg_color_input_off: rgba(250, 250, 250, 0.022); 
+  
+  --outline_default: 0px -22px 0px -21px;
+  --outline_hover: 0px -1px 0px 0px;
+  --outline_focus: 0px 0px 0px 1px; 
+  --outline_valid: 0px -1.5px 0px 0px;
+  --outline_invalid: 0px -2px 0px 0px;
+  
+  --brdr_rds_default: 0px;
+  --brdr_rds_hvr: 0px;
+  --brdr_rds_fcs: 3px;
+  
+  --tgram_left_ingram_right_bg_color: #00ffff00;
+  
+  font-size: calc(1em + 0.234375vw);
+}
+
+
+
+body {
+  
+  /* used to be font-size: 19px; or 1.1875rem before it became fluid */
+  
+  color: #0c0c0a;
+  font-family: Verdana, Helvetica, Optima, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  background-color: background-color: rgba(34,35,36, 1);
+  
+  padding: 0px;
+  
+  justify-content: center;
+  
+  max-width: 1920px;
+  
+  z-index: -2;
+  
+  border-bottom: 1px solid #8968ff;
+}
+
+
+
+main {
+  
+  padding: 0px 0px 33px;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+p {
+  
+  font-family: inherit;
+  line-height: 1.4em;
+  hyphens: auto;
+  word-break: normal;
+  text-align: left;
+  
+
+  
+  margin: 0px;
+
+  padding: 33px 11% 33px;
+  border-radius: 10px;
+  
+  box-shadow: 0px -7px 33px -34px #c1b2c1;
+  
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    text-align: left;
+    
+    padding: 22px 1px 22px;
+
+  }
+}
+
+p:hover {
+  
+  transition-delay: 0.05s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+
+
+h4 {
+
+  font-family: Georgia, cursive;
+  font-size: 19px;
+  text-align: left;
+  
+  margin: 0px 0px 15px;
+}
+
+
+

@@ -1,0 +1,400 @@
+body {
+
+  color: #0c0c0a;
+  font-family: Verdana, Helvetica, Optima, sans-serif;
+  font-size: 19px;
+  text-align: left;
+  background-color: #fcfcfc;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+
+.simplenav {
+
+  max-width: 326px;
+  margin: 0px 0px 0.1em;
+  padding: 0.3em 7px 0.5em 0.5em;
+  border-top: 1px solid #0c0c0a;
+  border-bottom: 2px solid #8f8f8f;
+  border-right: 1px solid #0c0c0a;
+  border-top-right-radius: 10px;
+
+  background-color: #fcfcfc;
+
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.simplenav:hover {
+
+  border-top: 1px solid #00ffff00;
+  border-bottom: 2px solid #00ffff00;
+  border-top-right-radius: 0px;
+
+  transition-delay: 0.05s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .simplenav {
+
+    padding: 0.3em 0px 0.5em 0px;
+
+    border-top: none;
+    border-right: none;
+
+    text-align: center;
+    margin: 0px auto 0.2em;
+  }
+
+  .simplenav:hover {
+
+    border-top: none;
+    border-bottom: 2px solid #00ffff00;
+
+  }
+}
+
+.nav {
+
+  font-size: 17px;
+  font-weight: 600;
+
+  color: #4166f5;
+  background-color: #00ffff00;
+
+  margin: auto;
+
+
+
+  padding: 0.5em 1px 0.65em;
+
+  text-decoration: none;
+  text-underline-offset: 0.7em;
+
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+
+
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+/* was hover text-decoration: 2px #00ffff00 underline*/
+
+.nav:hover {
+
+  color: #fcfcfc;
+  background-color: #66023c;
+
+  margin: auto;
+
+
+  padding: 0.5em 10px 0.65em;
+
+  text-decoration: none;
+  text-underline-offset: 0.7em;
+
+  border-bottom-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+
+  transition-delay: 0.05s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+
+main {
+
+  padding: 0px 0px 33px;
+  text-align: center;
+  margin: auto;
+}
+
+.bigpurple {
+
+
+  background-color: #fff;
+  margin: 0px 0px 0px;
+  padding: 0px;
+}
+
+.plhrofories {
+
+  padding: 1px 15px 12px;
+  margin: auto;
+  color: #321123;
+}
+
+span {
+
+  color: #d8b300;
+}
+
+h1 {
+
+  color: #d8b300;
+  font-family: Georgia, serif;
+  font-size: 52px;
+  text-align: center;
+  font-variant: small-caps;
+  padding: 30px 30px;
+
+  text-underline-offset: 0.3em;
+
+}
+
+@media only screen and (max-width: 486px) {
+
+  h1 {
+
+    text-underline-offset: 0.15em;
+  }
+}
+
+.hero-imagew {
+
+  width: 100vw;
+  height: 107vh;
+  background-image: url(/Eikona_ebay/IMG_20191123_225410.jpg);
+  background-position: center -50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.h2_Onoma {
+
+  font-family: Verdana, Helvetica, Optima, sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0px auto 77px;
+  max-width: 1318px;
+}
+
+@media only screen and (max-width: 486px) {
+
+  .h2_Onoma {
+
+    max-width: 315px;
+
+  }
+
+}
+
+#epikoinwnia {
+
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+h3 {
+
+  font-family: Georgia, serif;
+  text-align: center;
+  margin: 0x auto 66px;
+}
+
+
+h4 {
+
+  font-family: Georgia, cursive;
+  font-size: 19px;
+  text-align: left;
+}
+
+p {
+
+  font-family: inherit;
+  line-height: 1.4em;
+  hyphens: auto;
+  word-break: normal;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    text-align: center;
+  }
+}
+
+.mesxetika {
+
+
+  max-width: 770px;
+  min-width: 300px;
+  margin: 33px auto 33px;
+  padding: 0px 15px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .mesxetika {
+
+    margin: 0px auto 0px;
+    padding: 0px 15px 0px;
+  }
+}
+
+
+.douleia {
+
+
+  max-width: 770px;
+  min-width: 300px;
+  margin: 33px auto 33px;
+  padding: 33px 15px 33px;
+}
+
+.Photos {
+
+  text-align: ;
+  max-width: 10000px;
+  margin: 0px 0px 33px;
+  padding: 33px 0px 33px;
+  justify-content: center;
+}
+
+img {
+
+  width: 300px;
+  height: 450px;
+  border: 3px #66023c solid;
+  border-radius: 10px;
+  box-shadow: -10px 1px 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 12px 12px 22vh;
+  padding: 0px;
+  background-color: #eff0d0;
+}
+
+@media only screen and (max-width: 667px) {
+
+  img {
+    border: 3px #66023c solid;
+    border-radius: 10px;
+    box-shadow: -10px 1px 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 12px auto 22vh
+  }
+
+}
+
+.douleia_mathitwn {
+
+  max-width: 1270px;
+  min-width: 5px;
+  margin: 3px auto 0px;
+  padding: 33px 0px 33px;
+  text-align: center;
+}
+
+.deigma_douleia_mathitwn {
+
+  display: inline-block;
+  margin: auto;
+  padding: 0px 7px 33px;
+  text-align: center;
+}
+
+.img_mathiti_daskalou {
+
+  width: 190px;
+  height: 280px;
+  border: 3px #66023c solid;
+  border-radius: 10px;
+  box-shadow: -7px 1px 6px 0px rgba(0, 0, 0, 0.1);
+  margin: 0px 1px 48px;
+}
+
+@media only screen and (max-width: 416px) {
+  .img_mathiti_daskalou {
+
+    width: 160px;
+    height: 236px;
+  }
+}
+
+
+.daskaloi {
+
+  color: #0c0c0a;
+  text-decoration: 2px #39b577 underline;
+}
+
+a {
+
+  color: #120a8f;
+  text-decoration: 2px #eff0d0 underline;
+  text-underline-offset: 0.2em;
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  padding: 0.1em 2px 0.19em;
+}
+
+
+a:hover {
+
+  color: #0c0c0a;
+  background-color: #eff0d0;
+  text-decoration-color: #4166f5;
+  transition-duration: 0.3s;
+  transition-delay: 0.05s;
+  transition-timing-function: ease-out;
+
+}
+
+
+ul {
+
+  list-style-type: circle;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.email_form {
+
+  text-align: center;
+}
+
+.insta_button {
+
+  text-align: right;
+  margin: 50px 150px 50px;
+  position: relative;
+}
+
+.telgram_button {
+
+  text-align: left;
+  margin: 50px 150px 50px;
+}
+
+footer {
+
+  background-color: #120a8f;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.stoixeia_epikoinwnias {
+
+  color: #fcfcfc;
+}
+
+#footer_contact {
+
+  text-align: left;
+}
+
+.epik {
+
+  color: #fcfcfc;
+}

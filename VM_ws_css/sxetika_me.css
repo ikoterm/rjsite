@@ -1,0 +1,73 @@
+
+
+
+.mesxetika {
+  
+  max-width: 770px;
+  min-width: 300px;
+  margin: 33px auto 33px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .mesxetika {
+
+    margin: 1px auto 0px;
+    padding: 1px 12px 0px;
+  }
+}
+
+
+
+.daskaloi {
+
+  color: #0c0c0a;
+  text-decoration: 3px #39b577 underline;
+  text-underline-offset: 0.1em;
+  
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  padding: 0.14em 2px 0.19em;
+}
+
+.daskaloi:hover {
+  
+  color: #fcfcfc;
+  background-color: #39b577;
+  text-decoration-color: #00ffff00;
+  
+  transition-delay: 0.05s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+
+
+a {
+
+  color: #4166f5;
+  text-decoration: 3px #d3eeff underline;
+  text-underline-offset: 0.1em;
+  
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  padding: 0.14em 2px 0.19em;
+}
+
+a:hover {
+
+  color: #0c0c0a;
+  background-color: #d3eeff;
+  text-decoration-color: #00ffff00;
+  
+  transition-delay: 0.05s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+
+}
+
+#synexeia {
+}
