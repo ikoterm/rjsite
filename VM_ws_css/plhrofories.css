@@ -258,7 +258,7 @@ h1 {
 
 .bigpurple {
   
-  background: rgba(0,128,0, 0.3) url(../Icons/IMG_20191123_225520.jpg);
+  background: rgba(0,128,0, 0.3) url(/Icons/IMG_20191123_225520.jpg);
   
   
   background-repeat: no-repeat;
